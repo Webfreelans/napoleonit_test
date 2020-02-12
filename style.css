@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient( to left, rgb(115, 162, 177), rgb(124, 127, 141));
+    
+}
+.container {
+  background-color: aliceblue;
+  
+  margin: 7% 20% 0% 20%;  
+}
+
+}
+.spoiler-title{
+  cursor:pointer;}
+.spoiler-body{
+  display:none;background:#f1f1f1;}

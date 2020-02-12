@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+      <title>"О себе"</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="https://vk.com/doc84887025_535516102?hash=ba2aea415e426276ef&dl=87bf1bbc8cbffbd650">
+      <style>
+        .foto {
+          float: right; 
+          margin: 0 0 5px 5px;
+        }
+      </style>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      
+
+    </head>
+
+    <body>
+      <header>
+        <div class="container">
+          <p>
+            <img src="foto-1.png" alt="Фото" width="170" class="foto">
+          
+            <h1>Сагадеев Рустам Амирович</h1> 
+
+            <b class="spoiler-title"><b><button>Показать телефон</button></b></b>
+            <div class="spoiler-body">
+             <a href="tel:89043078775">89043078775</a></div> 
+             <script type="text/javascript">
+               $(document).ready(function(){
+               $('.spoiler-body').hide();
+               $('.spoiler-title').click(function(){
+               $(this).next().toggle()});
+                });
+             </script> <br>
+            15.10.1993, женат <br>
+            <b>Образование:</b>  НИУ ЮУрГУ, электроника и наноэлектроника <br>
+            Закончил университет в 2019 году. <br>
+            E-mail: Rustam.Sagadeev.93@mail.ru <br>
+            Знание иностранных языков: английский (basic) <br>
+            Дважды принимал участие в <b>GGJ</b> <br>
+            Принимал участие в волонтерской деятельности: волонтер IT-направления в чемпионате мира по тхеквондо 2015 и волонтер на разных мероприятиях регионального масштаба. Прошел срочную службу в ВС РФ.
+          </p>
+          
+        </div>
+      </header> 
+      <script>
+        'use strict';
+        
+        function unique(arr) {
+          let result = [];
+        
+          for (let str of arr) {
+            if (!result.includes(str)) {
+              result.push(str);
+            }
+          }
+        
+          return result;
+        }
+        
+        let strings = ["ма", "ма", "па", "па", "брат"];
+        
+        alert( unique(strings) ); // ма, па, брат
+        </script>
+  
+    </body>
+</html>
